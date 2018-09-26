@@ -36,5 +36,4 @@ ax.plot(ff, 2.0/N * np.abs(F[:N//2]))
 plt.show()
 
 #C = F[:N//2]
-#print(C)encontre este, pero solo es para precipitacion, y ya mejor decidi programarlas https://www.youtube.com/watch?v=dfTxLNlOYK4
 #ibm plex mono
