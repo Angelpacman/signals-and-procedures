@@ -6,7 +6,7 @@ Fs = 500.0;                 # razon de muestreo
 Ts = 1.0/Fs;                # intevalo de muestreo
 t = np.arange(0,1,Ts)       # vector tiempo
 ff = 75;                    # frecuencia de la señal
-y = np.cos(2*pi*ff*t)       # señal analogica continua en el tiempo
+y = np.sin(2*pi*ff*t)       # señal analogica continua en el tiempo
 
 def plotSpectrum(y,Fs):
 
