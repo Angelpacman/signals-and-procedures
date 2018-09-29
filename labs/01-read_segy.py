@@ -6,7 +6,9 @@ import matplotlib.pyplot as plt
 
 from obspy.io.segy.segy import _read_segy
 
-stream = _read_segy('/home/angelr/Documentos/MIGRACION/su/tape01.segy', headonly=True)
+#stream = _read_segy('/home/angelr/Documentos/MIGRACION/su/tape01.segy', headonly=True)
+stream = _read_segy('/home/angelr/SUnix/int_sis_2d_3d/L1002.sgy', headonly=True)
+
 
 one_trace = stream.traces[0]
 
